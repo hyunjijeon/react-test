@@ -3,6 +3,13 @@ import { ChildSolution02 } from './child-solution02';
 import { QUERY_ARR } from './test-data';
 import './test.css';
 
+
+/*
+    [Solution02] Fully uncontrolled component with a key
+        react key 속성을 사용해서 prop 변경시 component를 재생성하여 prop 기반의 state를 업데이트하는 방식
+        component의 key 값이 존재할 경우 사용 가능할듯
+ */
+
 interface IProps {
 }
 

@@ -1,6 +1,11 @@
 import React from 'react';
 import { QUERY } from './test-data';
 
+/*
+    [AntiPattern02] getDerivedStateFromProps
+        구현하기 까다롭다
+ */
+
 interface IProps {
     query: QUERY;
 }

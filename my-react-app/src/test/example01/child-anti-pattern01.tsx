@@ -1,6 +1,12 @@
 import React from 'react';
 import { QUERY } from './test-data';
 
+/*
+    [AntiPattern01] componentWillReceiveProps
+        prop 변경시 호출되는 메서드, 
+        deprecated됨
+ */
+
 interface IProps {
     query: QUERY;
 }

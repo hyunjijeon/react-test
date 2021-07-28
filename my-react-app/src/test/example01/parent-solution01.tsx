@@ -4,9 +4,11 @@ import { QUERY, QUERY_ARR } from './test-data';
 import './test.css';
 
 
-// ChildComponent에서 props이 변경될때 state가 업데이트 되어야함
-// 시나리오(Mapper editor, query 선택시 query 에디터에서 보여지는 쿼리 정보 업데이트)
-
+/*
+    [Solution01] Fully controlled component
+        ChildSolution01에는 State가 없고, parent에서 다 관리하는 방향인데,
+        child component가 간단하면 parent에서 완전히 컴포넌트를 제어할만 하겠지만, 간단하지 않으면 child component 비즈니스 로직이 parent에 다 집중되네
+ */
 
 interface IProps {
 }
