@@ -2,7 +2,8 @@
 // import logo from './logo.svg';
 import './App.css';
 // import { ParentComponent } from './test/example01/parent';
-import { ParentSolution01 } from './test/example01/parent-solution01';
+// import { ParentSolution01 } from './test/example01/parent-solution01';
+import { Parent } from './test/example02/parent';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <p>
           Test ! 
         </p>
-        <ParentSolution01/>
+        <Parent/>
+        {/* <ParentSolution01/> */}
         {/* <ParentComponent /> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
