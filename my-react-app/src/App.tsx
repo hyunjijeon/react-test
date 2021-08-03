@@ -1,7 +1,8 @@
 // import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { EditorRoot } from './redux/editor-root';
+import { EditorRootReduxHooks } from './redux_hooks/editor-root';
+// import { EditorRoot } from './redux/editor-root';
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
           Test ! 
         </p>
 
-        <EditorRoot/>
+        <EditorRootReduxHooks/>
+
+        {/* <EditorRoot/> */}
 
         {/* <ContextParent/> */}
 
