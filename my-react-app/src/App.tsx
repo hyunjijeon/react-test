@@ -1,9 +1,8 @@
 // import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-// import { ParentComponent } from './test/example01/parent';
-// import { ParentSolution01 } from './test/example01/parent-solution01';
-import { Parent } from './test/example02/parent';
+import { EditorRoot } from './redux/editor-root';
+
 
 function App() {
   return (
@@ -12,9 +11,11 @@ function App() {
         <p>
           Test ! 
         </p>
-        <Parent/>
-        {/* <ParentSolution01/> */}
-        {/* <ParentComponent /> */}
+
+        <EditorRoot/>
+
+        {/* <ContextParent/> */}
+
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
